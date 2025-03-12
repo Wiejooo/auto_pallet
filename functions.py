@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 
 product_id = 62530
 login_json_path = os.path.join(os.path.dirname(__file__), "..", "login_miglo.json")
@@ -44,6 +45,22 @@ def add_to_card():
         print(f'kod: {response.status_code}')
         print(f'treść: {response.text}')
         return 'Błąd przy dodawaniu do koszyka'
+
+
+def count_up_timer():
+    seconds = 0
+    try:
+        while True:
+            hrs, rem = divmod(seconds, 3600)
+            mins, secs = divmod(rem, 60)
+            print(f"\r{hrs:02}:{mins:02}:{secs:02}", end="")
+            time.sleep(1)
+            seconds += 1
+    except KeyboardInterrupt:
+        print("\nTimer stopped.")
+
+count_up_timer()
+
     
 
 # print(add_to_card())
