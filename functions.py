@@ -4,8 +4,8 @@ import os
 
 with open('test.json', 'r', encoding='utf-8') as file:
     pallets = json.load(file)
+pallets = pallets['data']['products'][0:5]
 
-# print(pallets['data']['products'][0:5])
 
 login_json_path = os.path.join(os.path.dirname(__file__), "..", "login_miglo.json")
 with open(login_json_path, 'r', encoding="utf-8") as file:
@@ -75,13 +75,16 @@ def find_newest_pallet():
         "QtyOnPalletMax": None
     }
     response = requests.post(URL, json=request, headers=headers)
-    response.json() # TODO Zmień response na json i wyciągnij z niego informacje
-    pallets = response['data']['products'][0]
+    pallets = response.json()
+    pallets = pallets['data']['products'][0:5]
+    cut_data_pallets = []
+    for pallet in pallets:
+        cut_data_pallets.append(f'{pallet["productCode"]} - {pallet["priceGross"]} brutto\n')
     if response.status_code == 200:
-        return f'Najnowsze palety: {pallets}'
+        return cut_data_pallets
     else:
         return 'Błąd przy sprawdzaniu najnowszych palet'
     
-print(find_newest_pallet())
+# print(find_newest_pallet())
 
 
