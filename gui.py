@@ -19,10 +19,19 @@ class MainWindow(QtWidgets.QMainWindow):
         self.start_time = QTime(0, 0, 0)
 
         # Podłączanie przycisków do funkcji
-        self.ui.start.clicked.connect(self.start_timer)
-        self.ui.start.clicked.connect(self.show_newest_pallets)
-        self.ui.stop.clicked.connect(self.stop_timer)
+        self.ui.start.clicked.connect(self.start_cyclicality)
+        self.ui.start.clicked.connect(self.buy_pallet)
+        self.ui.stop.clicked.connect(self.stop_cyclicality)
 
+        # Zakupione palety
+        self.scroll_layout = QtWidgets.QVBoxLayout()
+        self.scroll_widget = QtWidgets.QWidget()
+        self.scroll_widget.setLayout(self.scroll_layout)
+        self.ui.scrollArea.setWidget(self.scroll_widget)
+        self.label_pallets = QtWidgets.QLabel()
+        self.label_pallets.setWordWrap(True)
+        self.scroll_layout.addWidget(self.label_pallets)
+        
         
 
     def start_timer(self):
@@ -44,3 +53,33 @@ class MainWindow(QtWidgets.QMainWindow):
         pallets = functions.find_newest_pallet()
         pallets_text = "\n".join(pallets)
         self.ui.newest_list.setText(pallets_text)
+
+    def key_words(self):
+        """Wpisane słowa w textarea"""
+        words = self.ui.textEdit.toPlainText()
+        words = words.split(' ')
+        return words
+    
+    def buy_pallet(self):
+        """Zakup palety i zwrócenie danych"""
+        find = functions.check_offerts(self.key_words())
+        result_lines = []
+        for pallet_id, items in find.items():
+            items_str = ", ".join(f"{item}: {quantity}" for item, quantity in items.items())
+            result_lines.append(f"{pallet_id} → {items_str}")
+        find = "\n".join(result_lines)
+        self.label_pallets.setText(str(find))
+
+    def start_cyclicality(self):
+        """Cykliczność programu"""
+        self.start_timer()
+        self.key_words()
+        self.timer_loop = QTimer(self)
+        # self.timer_loop.timeout.connect(self.show_newest_pallets)
+        self.timer_loop.start(2000)
+
+    def stop_cyclicality(self):
+        """Zatrzymanie cykliczności"""
+        if hasattr(self, 'timer_loop'):
+            self.stop_timer()
+            self.timer_loop.stop()
