@@ -64,10 +64,11 @@ class MainWindow(QtWidgets.QMainWindow):
         """Zakup palety i zwrócenie danych"""
         find = functions.check_offerts(self.key_words())
         result_lines = []
-        for pallet_id, items in find.items():
-            items_str = ", ".join(f"{item}: {quantity}" for item, quantity in items.items())
-            result_lines.append(f"{pallet_id} → {items_str}")
-        find = "\n".join(result_lines)
+        for pallet_name, data in find.items():
+            title = f'{pallet_name} - {data["price"]} brutto'
+            items_str = ", ".join(f"{item}: {quantity}" for item, quantity in data["items"].items())
+            result_lines.append(f"{title}\n{items_str}")
+        find = "\n\n".join(result_lines)
         self.label_pallets.setText(str(find))
 
     def start_cyclicality(self):
@@ -75,7 +76,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.start_timer()
         self.key_words()
         self.timer_loop = QTimer(self)
-        # self.timer_loop.timeout.connect(self.show_newest_pallets)
+        # self.timer_loop.timeout.connect(self.show_newest_pallets) # <- wyłączona funkcja najnowszych palet
         self.timer_loop.start(2000)
 
     def stop_cyclicality(self):

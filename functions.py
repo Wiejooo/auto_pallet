@@ -67,7 +67,7 @@ def find_newest_pallet():
     request = {
         "CategoryId": None,
         "Category": None,
-        "ItemsOnPage": 21,
+        "ItemsOnPage": 5,
         "Page": 1,
         "CustomerId": None,
         "OnlyPromotions": False,
@@ -143,8 +143,11 @@ def check_offerts(words):
 
         # ID palet do kupienia
         if find_words != {}:
-            pallets_to_buy[pallet_id] = find_words
+            pallets_to_buy[pallet['productCode']] = {
+                'price': pallet['priceGross'],
+                "items": find_words,
+            }
     return pallets_to_buy
 
-# check_offerts(['deska', 'pompa', 'kamizelka', 'statyw'])
+# print(check_offerts(['golarka', 'ekran', 'kamizelka', 'statyw']))
     
