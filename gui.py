@@ -2,6 +2,7 @@ import functions
 from PyQt6 import QtWidgets
 from PyQt6.QtCore import QTimer, QTime
 from gui_designer import Ui_MainWindow
+from tests import func_tests
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -77,6 +78,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.key_words()
         self.timer_loop = QTimer(self)
         # self.timer_loop.timeout.connect(self.show_newest_pallets) # <- wyłączona funkcja najnowszych palet
+        self.timer_loop.timeout.connect(func_tests.check_offerts_TEST(['zmywarka', 'Etui', 'foremka', 'Puszek']))
         self.timer_loop.start(2000)
 
     def stop_cyclicality(self):

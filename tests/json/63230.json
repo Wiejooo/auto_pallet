@@ -1,0 +1,205 @@
+{
+    "apiResult": "Ok",
+    "data": [
+        {
+            "name": "AAOBOSI Maszyna do lodów 1,6 l z 4 trybami, 3 w 1, bez wstępnego zamrażania, z wbudowanym kompresorem, maszyna do lodów w domu, cyfrowy wyświetlacz, timer, stal nierdzewna",
+            "code2": "B0CWV2YT6K",
+            "category": "KITCHEN",
+            "quantity": 1,
+            "price": 101.1,
+            "marketPrice": 561.65,
+            "image": "m_61RNoMwWNbLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=AAOBOSI Maszyna do lodów 1,6 l z 4 trybami, 3 w 1, bez wstępnego zamrażania, z w&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Otwieracz do Puszek Stołowych Ręczny Otwieracz do Puszek Duży, Wysokowydajny Obrotowy Otwieracz do Puszek do Komercyjnych Kuchni Restauracyjnych",
+            "code2": "B09H43M4HX",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 55.81,
+            "marketPrice": 310.03,
+            "image": "m_61EmM7Li7ESACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Otwieracz do Puszek Stołowych Ręczny Otwieracz do Puszek Duży, Wysokowydajny Obr&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Stunt Scooter Joycruise Profi Scooters, Trick Stunt Roller für Jugendliche Kinder ab 6 Jahre Jungen Mädchen, Freistil Kick Scooter, 360 ° Lenkung Street Scooters (Schwarzes Gold)",
+            "code2": "B09ND9VDXJ",
+            "category": "SPORTS",
+            "quantity": 3,
+            "price": 49.92,
+            "marketPrice": 277.32,
+            "image": "m_71X7nnO3ffLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Stunt Scooter Joycruise Profi Scooters, Trick Stunt Roller für Jugendliche Kinde&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "ASUNCELL 3900mAh V11 Akku für Dyson (Screw in Type), 25.2V Ersatzakku für Dyson SV14 Absolute Complete Fluffy kabellos Staubsauger Einfach Montage mit Filter, Bürste und Schrauben",
+            "code2": "B0CWXX9ZGG",
+            "category": "ELECTRONICS",
+            "quantity": 15,
+            "price": 49.85,
+            "marketPrice": 276.94,
+            "image": "m_61JcLaqD53LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=ASUNCELL 3900mAh V11 Akku für Dyson (Screw in Type), 25.2V Ersatzakku für Dyson &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii | Clavier pour iPad Air 4/5/6 et iPad Pro 11 | Design Elegance Magnétique Flottant avec Trackpad | 7 Modes Luminescents Rétro | Expérience de Jeu et de Travail Améliorée | Noir",
+            "code2": "B0D4LZPXWZ",
+            "category": "PC",
+            "quantity": 2,
+            "price": 47.22,
+            "marketPrice": 262.36,
+            "image": "m_612LH14oguLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii | Clavier pour iPad Air 4/5/6 et iPad Pro 11 | Design Elegance Magnétique Fl&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Cocoarm Elektryczna frytkownica 6 l Deep Fryer ze stali nierdzewnej ze zdejmowaną pokrywą i regulatorem temperatury, łatwa do czyszczenia, srebrna",
+            "code2": "B07MKRCMJ4",
+            "category": "KITCHEN",
+            "quantity": 1,
+            "price": 42.33,
+            "marketPrice": 235.16,
+            "image": "m_61wwaWnwlvLACSL1001.jpg",
+            "photoLink": "https://www.google.com/search?q=Cocoarm Elektryczna frytkownica 6 l Deep Fryer ze stali nierdzewnej ze zdejmowan&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii Clavier Français Compatible avec Microsoft Surface Pro 8/Pro 9/Pro X, Clavier Portable Ultra-Mince sans Fil Bluetooth avec Pavé Tactile, 7 Couleurs rétroéclairées",
+            "code2": "B0CM9JY23F",
+            "category": "PC",
+            "quantity": 4,
+            "price": 40.73,
+            "marketPrice": 226.26,
+            "image": "m_71pqm0NZqTLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii Clavier Français Compatible avec Microsoft Surface Pro 8/Pro 9/Pro X, Clavie&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Cocoarm Brustvergrößerungs-Vakuumtherapie-Körpermassagegerät mit EU-Stecker 220 V",
+            "code2": "B0CT61DGRM",
+            "category": "PERSONAL_CARE_APPLIANCES",
+            "quantity": 1,
+            "price": 38.04,
+            "marketPrice": 211.31,
+            "image": "m_51bT2Or0KBLACSL1001.jpg",
+            "photoLink": "https://www.google.com/search?q=Cocoarm Brustvergrößerungs-Vakuumtherapie-Körpermassagegerät mit EU-Stecker 220 &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "KENVOR Odkurzacz ssący 12 kPa, maszynka do strzyżenia psów z odkurzaczem, 6 w 1, zestaw do pielęgnacji zwierząt domowych, profesjonalny odkurzacz do pielęgnacji sierści kotów i psów, fioletowy",
+            "code2": "B0C68MLJH4",
+            "category": "PERSONAL_CARE_APPLIANCES",
+            "quantity": 2,
+            "price": 37.92,
+            "marketPrice": 210.64,
+            "image": "m_61IbUN8ZexLACSL1200.jpg",
+            "photoLink": "https://www.google.com/search?q=KENVOR Odkurzacz ssący 12 kPa, maszynka do strzyżenia psów z odkurzaczem, 6 w 1,&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "INFANZIA Poduszka do czytania na łóżko i sofę, miękka i wygodna, optymalne podparcie pleców, praktyczne podłokietniki i ergonomiczne siedzisko, poduszka pod plecy z podłokietnikami, szara",
+            "code2": "B0D22D5B6V",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 27.17,
+            "marketPrice": 150.94,
+            "image": "m_71IO4lrWcLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=INFANZIA Poduszka do czytania na łóżko i sofę, miękka i wygodna, optymalne podpa&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii Mechaniczna klawiatura gamingowa 60% Bluetooth, 2,4 Ghz/USB-C w 3 trybach z czerwonym przełącznikiem, podświetlana klawiatura do gier LED, kompaktowa klawiatura 62 klawisze antyghostingowe, czarna",
+            "code2": "B0D4PQ2KRK",
+            "category": "PC",
+            "quantity": 2,
+            "price": 26.63,
+            "marketPrice": 147.93,
+            "image": "m_71bKVdnGBHLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii Mechaniczna klawiatura gamingowa 60% Bluetooth, 2,4 Ghz/USB-C w 3 trybach z &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "(tryb podwójny) Rii RT518S Bezprzewodowa podświetlana klawiatura multimedialna z 2 diodami LED z gładzikiem Multi-Touch, klawiatura ładowalna do Android TV Box,Smart TV, HT/PC, IPTV",
+            "code2": "B0B4JKLR5M",
+            "category": "PC",
+            "quantity": 1,
+            "price": 18.79,
+            "marketPrice": 104.4,
+            "image": "m_61eurXpvRWLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=(tryb podwójny) Rii RT518S Bezprzewodowa podświetlana klawiatura multimedialna z&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Półka narożna, 3-poziomowa półka narożna, bez narzędzi, montaż narożny, deska z pianki PCW, regał na książki, stojący stojak na małe przestrzenie, łazienka, sypialnia, organizer, 18,5 x 47 x 18 cm",
+            "code2": "B0CSMF79XR",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 18.6,
+            "marketPrice": 103.36,
+            "image": "m_61cX9gEtnLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Półka narożna, 3-poziomowa półka narożna, bez narzędzi, montaż narożny, deska z &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii Mini Bezprzewodowa Klawiatura AZERTY 2,4 GHz (wersja francuska) z dużym rozmiarem Touchpad do Smart TV, HTPC, TV BOX, Malina PI, Mac OS, Linux, Android, Windows 2000 XP Vista 78, Sony Playstation",
+            "code2": "B07MXFQH7D",
+            "category": "PC",
+            "quantity": 1,
+            "price": 17.54,
+            "marketPrice": 97.42,
+            "image": "m_612bGo7UaXLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii Mini Bezprzewodowa Klawiatura AZERTY 2,4 GHz (wersja francuska) z dużym rozm&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii i4 Mini Clavier sans Fil Bluetooth & 2.4 GHz (AZERTY) avec pavé Tactile, LED Backlit, Batterie Rechargeable pour iOS Windows Android tablettes, Raspberry Pi2, Linux et Ordinateur",
+            "code2": "B0C4P38WK9",
+            "category": "PC",
+            "quantity": 3,
+            "price": 16.91,
+            "marketPrice": 93.96,
+            "image": "m_71IM7wjzGqLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii i4 Mini Clavier sans Fil Bluetooth & 2.4 GHz (AZERTY) avec pavé Tactile, LED&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii Klawiatura Gamer AZERTY FR - Tłumik USB - Podświetlana klawiatura przewodowa LED - PC do gier PS4 PS5 - dla Windows/Mac OS/Chrome OS/Linux OS - Czarna",
+            "code2": "B09L16ZH6R",
+            "category": "PC",
+            "quantity": 2,
+            "price": 16.29,
+            "marketPrice": 90.49,
+            "image": "m_71Zxq9cZTLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii Klawiatura Gamer AZERTY FR - Tłumik USB - Podświetlana klawiatura przewodowa&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii Mini (nowość) ergonomiczna bezprzewodowa bezprzewodowa klawiatura X8 z touchpadem do Smart TV, Mini PC, HTPC, konsola, komputera",
+            "code2": "B07CCH6X56",
+            "category": "PC",
+            "quantity": 7,
+            "price": 16.15,
+            "marketPrice": 89.74,
+            "image": "m_710fRwZMzILACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii Mini (nowość) ergonomiczna bezprzewodowa bezprzewodowa klawiatura X8 z touch&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Orzbow Uniwersalna taca na przekąski do wózka z izolowanym uchwytem na kubek, stabilna taca do wózka dziecięcego z regulowaną komorą na przekąski, sztywna rama, paski antypoślizgowe, pudełko na",
+            "code2": "B0CBKBQLWR",
+            "category": "BABY_PRODUCT",
+            "quantity": 20,
+            "price": 15.16,
+            "marketPrice": 84.22,
+            "image": "m_81FIeDfgeRLSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Orzbow Uniwersalna taca na przekąski do wózka z izolowanym uchwytem na kubek, st&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Rii Clavier Gamer - AZERTY - Nouveau Clavier USB Filaire - 105 Touches Semi-Mécaniques - 5 Couleurs LED Rétro - 11 Raccourcis Multimédia - pour PC Mac - PS4 PS5 - Noir",
+            "code2": "B01N6CLELZ",
+            "category": "PC",
+            "quantity": 1,
+            "price": 12.53,
+            "marketPrice": 69.6,
+            "image": "m_71mxhuSQVILACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Rii Clavier Gamer - AZERTY - Nouveau Clavier USB Filaire - 105 Touches Semi-Méca&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Doohoeek Etui z klawiaturą do Samsung Galaxy Tab S8+ 12,4''/S7 FE 2021/S7+ 2020, 7-kolorowa klawiatura Bluetooth z podświetleniem, czarny",
+            "code2": "B0BKQ1T6SD",
+            "category": "PC",
+            "quantity": 5,
+            "price": 3,
+            "marketPrice": 16.67,
+            "image": "m_71bPXGRHyLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Doohoeek Etui z klawiaturą do Samsung Galaxy Tab S8+ 12,4''/S7 FE 2021/S7+ 2020,&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        }
+    ]
+}

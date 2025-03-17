@@ -136,6 +136,9 @@ ENV/
 env.bak/
 venv.bak/
 
+tests/brudnopis.py
+tests/test.json
+
 # Spyder project settings
 .spyderproject
 .spyproject

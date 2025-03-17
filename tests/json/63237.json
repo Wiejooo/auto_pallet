@@ -1,0 +1,926 @@
+{
+    "apiResult": "Ok",
+    "data": [
+        {
+            "name": "Sztuczna choinka 150 cm – naturalne elementy formowane wtryskowo, sztuczna choinka ze stojakiem i torbą do przechowywania – sztuczna choinka Pure Living",
+            "code2": "B0D6G98Z49",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 80.22,
+            "marketPrice": 445.68,
+            "image": "m_81PJA8WoAeLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Sztuczna choinka 150 cm – naturalne elementy formowane wtryskowo, sztuczna choin&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Pure Living sztuczna choinka klasy premium, 120 cm, zwycięzca testu – wierna natura, gęste gałązki, sztuczna choinka z drewnianym stojakiem i torbą do przechowywania – sztuczna choinka firmy Pure",
+            "code2": "B0CKLK1TZ2",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 53.23,
+            "marketPrice": 295.74,
+            "image": "m_91bcRWf7jgLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Pure Living sztuczna choinka klasy premium, 120 cm, zwycięzca testu – wierna nat&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "NUWIND Kostium Jedi dla mężczyzn, średniowieczna tunika z kapturem, peleryna, szata, na Halloween, cosplay, strój dla dorosłych",
+            "code2": "B083FN4GQW",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 51.67,
+            "marketPrice": 287.05,
+            "image": "m_41W3e4Ok3LACSL1000.jpg",
+            "photoLink": "https://www.google.com/search?q=NUWIND Kostium Jedi dla mężczyzn, średniowieczna tunika z kapturem, peleryna, sz&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YNQFZ Kostium Świętego Mikołaja Deluxe czerwony kostium Mikołaja dla dorosłych, 12-częściowy kostium dla mężczyzn, idealny na Boże Narodzenie i cosplay",
+            "code2": "B0CJJG93T5",
+            "category": "TOY",
+            "quantity": 2,
+            "price": 47.95,
+            "marketPrice": 266.37,
+            "image": "m_71CaMSc54FLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YNQFZ Kostium Świętego Mikołaja Deluxe czerwony kostium Mikołaja dla dorosłych, &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Ulinek 50 m, 2000 diod LED, łańcuch świetlny na choinkę, zasilany prądem, na zewnątrz, ciepła biel, wodoszczelny, z 8 trybami pracy, na Boże Narodzenie, drzewo, do domu, na balkon, do ogrodu,",
+            "code2": "B07VJM8ZQS",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 38.82,
+            "marketPrice": 215.69,
+            "image": "m_71FhB8I2faLACSL1000.jpg",
+            "photoLink": "https://www.google.com/search?q=Ulinek 50 m, 2000 diod LED, łańcuch świetlny na choinkę, zasilany prądem, na zew&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Übergröße Minimizer Ungefüttert Kabellos Spitze Vollständige Abdeckung BHS-Tiefes Flechtengrün,Nackt-80B",
+            "code2": "B07S9KGH35",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 26.31,
+            "marketPrice": 146.18,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Übergröße Minimizer Ungefüttert Kabellos Spitze Vollständige Ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Leicht Gepolstert Bügel Spitze BH mit gepolsterten Schultergurten-Schwarz, Wein-95E",
+            "code2": "B08CKJCPHL",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 26.24,
+            "marketPrice": 145.8,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Leicht Gepolstert Bügel Spitze BH mit gepolsterten Schultergurt&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Ungefüttert Bügel Spitze BH mit Gepolstert Schulter Gurte - 2er Pack-Schwarz, Mauve-80G",
+            "code2": "B0892ZWYMG",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 26.24,
+            "marketPrice": 145.76,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Ungefüttert Bügel Spitze BH mit Gepolstert Schulter Gurte - 2er&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Ungefüttert Bügel Spitze BH mit Gepolstert Schulter Gurte - 2er Pack-Schwarz, Mauve-90G",
+            "code2": "B0892XV2Z8",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 26.07,
+            "marketPrice": 144.84,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Ungefüttert Bügel Spitze BH mit Gepolstert Schulter Gurte - 2er&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "NUWIND Kostüm Bayerisches Damen Trachtenkleid Oktoberfest Dirndl Gr. Small, Schwarz/Rosa",
+            "code2": "B07XJMH4QG",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 25.76,
+            "marketPrice": 143.13,
+            "image": "m_61iSxJjIcbLACSL1247.jpg",
+            "photoLink": "https://www.google.com/search?q=NUWIND Kostüm Bayerisches Damen Trachtenkleid Oktoberfest Dirndl Gr. Small, Schw&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Übergröße Minimizer Ungefüttert Kabellos Spitze Vollständige Abdeckung BHS-Schwarz, Rot-85B",
+            "code2": "B07S9KH12Z",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 25.56,
+            "marketPrice": 142,
+            "image": "m_81CQ0ZzRULACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Übergröße Minimizer Ungefüttert Kabellos Spitze Vollständige Ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Leichter Aufzug 1 Tasse hinzufügen Hochdrücken Bügel Cabrio T-Shirt BH-2er Pack-Rot, Grün-110B",
+            "code2": "B07SBNBPL8",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 25.23,
+            "marketPrice": 140.16,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Leichter Aufzug 1 Tasse hinzufügen Hochdrücken Bügel Cabrio T-S&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Übergröße Minimizer Kabellos Ungefütterter BH mit Stickspitze - 2er Pack-Buttermilch, Grau-80G-V2",
+            "code2": "B08C6XT26T",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 24.34,
+            "marketPrice": 135.23,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Übergröße Minimizer Kabellos Ungefütterter BH mit Stickspitze -&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pack-Buttermilchdruck, Blau Drucken-105E",
+            "code2": "B07TZTQX94",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 24.06,
+            "marketPrice": 133.69,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pac&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pack-Buttermilchdruck, Blau Drucken-105F",
+            "code2": "B07TZT9JM3",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 24,
+            "marketPrice": 133.35,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pac&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Übergröße Minimizer Bügel Ungefütterte BHS mit Stickspitze - 2er Pack-Buttermilch, Grau-75E",
+            "code2": "B07SCMQ69R",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 23.75,
+            "marketPrice": 131.93,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Übergröße Minimizer Bügel Ungefütterte BHS mit Stickspitze - 2e&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pack-Buttermilchdruck, Blau Drucken-95F",
+            "code2": "B07TZ75ZVP",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 23.69,
+            "marketPrice": 131.6,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pac&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "NUWIND Kostüm Bayerisches Damen Trachtenkleid Oktoberfest Dirndl Gr. X-Large, Schwarz/Rosa",
+            "code2": "B07XJMG1FX",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 23.68,
+            "marketPrice": 131.56,
+            "photoLink": "https://www.google.com/search?q=NUWIND Kostüm Bayerisches Damen Trachtenkleid Oktoberfest Dirndl Gr. X-Large, Sc&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pack-Buttermilchdruck, Blau Drucken-100D",
+            "code2": "B07TZTV8J6",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 23.54,
+            "marketPrice": 130.76,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pac&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pack-Buttermilchdruck, Blau Drucken-90C",
+            "code2": "B07TVWJYX6",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 23.48,
+            "marketPrice": 130.47,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pac&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pack-Buttermilchdruck, Blau Drucken-85E",
+            "code2": "B07TZ75N51",
+            "category": "APPAREL",
+            "quantity": 2,
+            "price": 23.41,
+            "marketPrice": 130.05,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Minimizer Ungefütterter Bügel-BH mit Spitzenstickerei - 2er Pac&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Dizdvizd Portfel na paszport podróżny, motywy świąteczne rodzinny uchwyt na paszport organizer na dokumenty, NIEBIESKI, M, Nowoczesny",
+            "code2": "B0BHNBCWJK",
+            "category": "LUGGAGE",
+            "quantity": 18,
+            "price": 22.56,
+            "marketPrice": 125.33,
+            "image": "m_715fc1o5V3LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Dizdvizd Portfel na paszport podróżny, motywy świąteczne rodzinny uchwyt na pasz&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Übergröße Ungefüttert Bügel Spitzen-BH mit gepolsterten Schultergurten-2er Pack-Sahne, Marine-85D",
+            "code2": "B07WP8L868",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 22.18,
+            "marketPrice": 123.2,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Übergröße Ungefüttert Bügel Spitzen-BH mit gepolsterten Schultergurte&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Übergröße Ungefüttert Bügel Spitzen-BH mit gepolsterten Schultergurten-2er Pack-Marine, Lila -100B",
+            "code2": "B07Y7XSNSL",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 22.13,
+            "marketPrice": 122.95,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Übergröße Ungefüttert Bügel Spitzen-BH mit gepolsterten Schultergurte&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Übergröße Ungefüttert Bügel Spitzen-BH mit gepolsterten Schultergurten-2er Pack-Grauer Druck, Marine Druck -90F",
+            "code2": "B07WP8HQCL",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 22.1,
+            "marketPrice": 122.78,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Übergröße Ungefüttert Bügel Spitzen-BH mit gepolsterten Schultergurte&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "NUWIND Thanos Handschuh Glänzend Machthandschuh mit Edelsteine Infinity Steine Halloween Kostüm Accessoire Cosplay Requisiten Party Deko (für Kinder)",
+            "code2": "B07VRSK7HQ",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 19.08,
+            "marketPrice": 105.99,
+            "photoLink": "https://www.google.com/search?q=NUWIND Thanos Handschuh Glänzend Machthandschuh mit Edelsteine Infinity Steine H&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "N&T NIETING Sztuczna choinka z oświetleniem, Pop Up Choinka 150 cm, cekiny, sztuczna dekoracja bożonarodzeniowa na Boże Narodzenie, artykuły imprezowe, dekoracja domu, niebieska",
+            "code2": "B08D7FKTXP",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 18.34,
+            "marketPrice": 101.89,
+            "image": "m_71ghzLMx8SLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=N&T NIETING Sztuczna choinka z oświetleniem, Pop Up Choinka 150 cm, cekiny, sztu&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "20 Stück LED Weihnachtskerzen, PChero Batteriebetrieben Flammenlose Flackernde Stabkerzen mit Fernbedienung für Heimat Tisch Xmas Tree Weihnachtsbaum Garten Dekoration – Warmweiß",
+            "code2": "B07T6GTKPK",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 17.69,
+            "marketPrice": 98.26,
+            "image": "m_71z8IurhtMLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=20 Stück LED Weihnachtskerzen, PChero Batteriebetrieben Flammenlose Flackernde S&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Nadmuchiwany Mikołaj z dmuchawą, 244 cm, ogromny Mikołaj z drabinką, światło LED, dekoracja bożonarodzeniowa, IP44, odporna na warunki atmosferyczne, dekoracja do wnętrz i na zewnątrz",
+            "code2": "B0D8TDHHXL",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 17.59,
+            "marketPrice": 97.72,
+            "image": "m_71HBxPa1pmLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Nadmuchiwany Mikołaj z dmuchawą, 244 cm, ogromny Mikołaj z drabinką, światło LED&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Curve Muse Damen Übergröße Fügen Sie 1 und eine halbe Tasse hinzu Hochdrücken Bügel Spitzen-BHS-Schwarz,Sahne-75B",
+            "code2": "B07YQSPR9H",
+            "category": "APPAREL",
+            "quantity": 1,
+            "price": 17.3,
+            "marketPrice": 96.09,
+            "photoLink": "https://www.google.com/search?q=Curve Muse Damen Übergröße Fügen Sie 1 und eine halbe Tasse hinzu Hochdrücken Bü&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Solarny łańcuch świetlny na zewnątrz, 400 diod LED, 42 m, do użytku na zewnątrz, 8 trybów, dekoracja bożonarodzeniowa na zewnątrz, IP65, wodoszczelny łańcuch świetlny LED, na balkon, do ogrodu, na",
+            "code2": "B0D8B6K9FC",
+            "category": "HOME",
+            "quantity": 3,
+            "price": 17.03,
+            "marketPrice": 94.62,
+            "image": "m_8175j82zQ0LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Solarny łańcuch świetlny na zewnątrz, 400 diod LED, 42 m, do użytku na zewnątrz,&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "EXTSUD Świeczki LED z pilotem zdalnego sterowania, 20 sztuk, oświetlenie choinkowe, pływające świeczki choinkowe, świece bożonarodzeniowe, zasilane bateriami, do dekoracji bożonarodzeniowych, na",
+            "code2": "B0CH897W11",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 16.93,
+            "marketPrice": 94.08,
+            "image": "m_71U29gP3hULACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=EXTSUD Świeczki LED z pilotem zdalnego sterowania, 20 sztuk, oświetlenie choinko&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YCOLL Blumen Kissenbezug 60x60 4er Set Kissenhülle Leinen Sofakissen Moderne Abstrakte Blumen Aquarellmalerei Dekokissen für Sofa Schlafzimmer Couch Outdoor Kissenbezüge 60x60 A090",
+            "code2": "B0CL6K5879",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 16.63,
+            "marketPrice": 92.41,
+            "image": "m_81Ud2aV7imLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YCOLL Blumen Kissenbezug 60x60 4er Set Kissenhülle Leinen Sofakissen Moderne Abs&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Solarne łańcuchy świetlne na zewnątrz, 400 diod LED, 42 m, na zewnątrz, solarne, 8 trybów, dekoracja bożonarodzeniowa, na zewnątrz, IP65, łańcuch świetlny na zewnątrz, na balkon, do ogrodu, na",
+            "code2": "B0D89Y79MS",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 15.92,
+            "marketPrice": 88.44,
+            "image": "m_81cuLJ8hIULACSL1499.jpg",
+            "photoLink": "https://www.google.com/search?q=Solarne łańcuchy świetlne na zewnątrz, 400 diod LED, 42 m, na zewnątrz, solarne,&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Zestaw 30 bombek choinkowych, ozdoby choinkowe z bombkami, do dekoracji bożonarodzeniowych (czerwone i zielone)",
+            "code2": "B0D2YZJG8P",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 15.4,
+            "marketPrice": 85.56,
+            "image": "m_81dWiTqV6KLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Zestaw 30 bombek choinkowych, ozdoby choinkowe z bombkami, do dekoracji bożonaro&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Geemoo Łańcuch świetlny LED Święty Mikołaj na drabinie – 3 metry, oświetlenie bożonarodzeniowe LED, zasilanie prądem z timerem, funkcja pamięci, 8 trybów, do użytku wewnątrz i na zewnątrz, na choinkę,",
+            "code2": "B0D5D35BLK",
+            "category": "LAWN_AND_GARDEN",
+            "quantity": 1,
+            "price": 15.16,
+            "marketPrice": 84.22,
+            "image": "m_81rmtwTEIPLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Geemoo Łańcuch świetlny LED Święty Mikołaj na drabinie – 3 metry, oświetlenie bo&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "iShabao Łańcuch świetlny 3 m ze Świętym Mikołajem – 310 diod LED, oświetlenie bożonarodzeniowe, zasilanie prądem z timerem, funkcja pamięci, 8 trybów, do użytku wewnątrz i na zewnątrz, dekoracja",
+            "code2": "B0D7CCH82F",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 15.16,
+            "marketPrice": 84.22,
+            "image": "m_81kzm84xjLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=iShabao Łańcuch świetlny 3 m ze Świętym Mikołajem – 310 diod LED, oświetlenie bo&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Zestaw 30 plastikowych bombek bożonarodzeniowych, czerwono-zielonych, 60 mm, z haczykiem do zawieszenia, wykonane z nietłukącego się tworzywa sztucznego, dekoracja choinki",
+            "code2": "B09JWGK5NL",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 14.53,
+            "marketPrice": 80.71,
+            "image": "m_81LaBnj229LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Zestaw 30 plastikowych bombek bożonarodzeniowych, czerwono-zielonych, 60 mm, z h&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "NEXVIN 2 Piezas Guirnalda Luces Exterior Solar 20M 200 LED Blanco Calido, Cadena de Luces Navidad, 8 Modos, Decorativas Impermeable para Arbol, Patio, Jardin Blanco Calido",
+            "code2": "B0D5D52C95",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 13.96,
+            "marketPrice": 77.54,
+            "image": "m_51wxqR0rFOLAC.jpg",
+            "photoLink": "https://www.google.com/search?q=NEXVIN 2 Piezas Guirnalda Luces Exterior Solar 20M 200 LED Blanco Calido, Cadena&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Agoer Zestaw 60 bombek choinkowych, błyszczące bombki na choinkę w kolorze różowym i srebrnym, z tworzywa sztucznego, z gwiazdami, łańcuszkiem, pudełkiem, wiszące dekoracje",
+            "code2": "B08HVPCNGK",
+            "category": "FURNITURE",
+            "quantity": 3,
+            "price": 13.9,
+            "marketPrice": 77.2,
+            "image": "m_81gBdTVjOLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Agoer Zestaw 60 bombek choinkowych, błyszczące bombki na choinkę w kolorze różow&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "SALCAR Kurtyna świetlna LED na zewnątrz, 2 x 2 m, łańcuch świetlny, zasłona na Boże Narodzenie, do wnętrz, z 8 trybami pracy i pamięcią, oświetlenie bożonarodzeniowe do ogrodu,",
+            "code2": "B0D1KC8S26",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 13.9,
+            "marketPrice": 77.2,
+            "image": "m_81DbK6JCucLACSL1200.jpg",
+            "photoLink": "https://www.google.com/search?q=SALCAR Kurtyna świetlna LED na zewnątrz, 2 x 2 m, łańcuch świetlny, zasłona na B&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YCOLL Zestaw 4 poszewek na poduszkę dekoracyjną na sofę, poszewka na poduszkę, dekoracja na sofę, krzesło, do ogrodu, 50 x 50 cm",
+            "code2": "B08D1X5CY5",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 13.26,
+            "marketPrice": 73.69,
+            "image": "m_81sczOimwLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YCOLL Zestaw 4 poszewek na poduszkę dekoracyjną na sofę, poszewka na poduszkę, d&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Aksamitna choinka spódnica do dekoracji świątecznych dywan choinki, stóp choinki wiklina choinki pokrowce na nogi choinki 85cm",
+            "code2": "B0BLTHPL8F",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 12.78,
+            "marketPrice": 71.02,
+            "image": "m_81PGJmVgt1LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Aksamitna choinka spódnica do dekoracji świątecznych dywan choinki, stóp choinki&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Agoer Zestaw 60 różowych bombek choinkowych, z tworzywa sztucznego, brokatowe, różowe, ozdoby choinkowe, na imprezę noworoczną, wesele, święta, dekoracja bożonarodzeniowa",
+            "code2": "B0D9XPHWG1",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 12.63,
+            "marketPrice": 70.19,
+            "image": "m_81imFP6k2iLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Agoer Zestaw 60 różowych bombek choinkowych, z tworzywa sztucznego, brokatowe, r&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Sekey Magnetyczna zasłona na drzwi, ochrona przed zimnem, zasłona termiczna na drzwi, wodoszczelna, wiatroszczelna, oszczędność energii, zasłona termiczna na drzwi, 90 x 210 cm, szara",
+            "code2": "B0D9Q1C998",
+            "category": "HOME_IMPROVEMENT",
+            "quantity": 1,
+            "price": 12.63,
+            "marketPrice": 70.19,
+            "image": "m_71NucCPWCULACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Sekey Magnetyczna zasłona na drzwi, ochrona przed zimnem, zasłona termiczna na d&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Ulinek Haczyki z przyssawkami, 6 sztuk, próżniowe, mocne, zdejmowane, bez wiercenia, na płaszcz, ręcznik, wieniec, kapelusz, tkanina, narzędzie, haczyki ssące, wytrzymałe, do łazienki, kuchni, drzwi,",
+            "code2": "B07X2S5K3T",
+            "category": "HOME_IMPROVEMENT",
+            "quantity": 1,
+            "price": 12.61,
+            "marketPrice": 70.06,
+            "image": "m_51UAc5HXnNLACSL1000.jpg",
+            "photoLink": "https://www.google.com/search?q=Ulinek Haczyki z przyssawkami, 6 sztuk, próżniowe, mocne, zdejmowane, bez wierce&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "204 diody LED, siatka świetlna na na zewnątrz, 3 m x 2 m, wodoodporna girlanda solarna, 8 trybów świateł, lina do oświetlenia ogrodowego, ciepła biel",
+            "code2": "B08GQW1VSX",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 12.11,
+            "marketPrice": 67.3,
+            "image": "m_81NadEXL5LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=204 diody LED, siatka świetlna na na zewnątrz, 3 m x 2 m, wodoodporna girlanda s&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YCOLL 2er Set Kissenbezug 50x50 Baumwolle Leinen Kissenhülle Sofakissen Streifen Dekokissen Boho Deko Kissenhüllen Dekorativ Kissenbezüge für Sofa Wohnzimmer Schlafzimmer Outdoor Kissen 50x50 Gray",
+            "code2": "B09XMR4SFD",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 12,
+            "marketPrice": 66.68,
+            "image": "m_811zE47oV9LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YCOLL 2er Set Kissenbezug 50x50 Baumwolle Leinen Kissenhülle Sofakissen Streifen&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YCOLL 2 szt. 40 x 40 szt. Świąteczne poduszki na sofę Poszewki na poduszki świąteczne bawełniane poszewki na poduszki poduszki na sofę do dekoracji świątecznych",
+            "code2": "B0D8W3P4DL",
+            "category": "HOME",
+            "quantity": 3,
+            "price": 12,
+            "marketPrice": 66.68,
+            "image": "m_61GXvrDoDZLACSL1000.jpg",
+            "photoLink": "https://www.google.com/search?q=YCOLL 2 szt. 40 x 40 szt. Świąteczne poduszki na sofę Poszewki na poduszki świąt&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YCOLL Świąteczne poszewki na poduszki 50 x 50 cm, zestaw 4 poduszek bożonarodzeniowych, bawełna, len, poszewki na poduszki, poduszki na sofę, 50 x 50 cm, poduszki na sofę na dekoracje świąteczne",
+            "code2": "B0CBRWL73L",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 12,
+            "marketPrice": 66.68,
+            "image": "m_61WYrkxHSXLACSL1000.jpg",
+            "photoLink": "https://www.google.com/search?q=YCOLL Świąteczne poszewki na poduszki 50 x 50 cm, zestaw 4 poduszek bożonarodzen&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YeahBoom 3-częściowy zestaw lampek LED z przyssawką, na baterie, oświetlenie bożonarodzeniowe, do użytku wewnątrz i na zewnątrz, dekoracja okna",
+            "code2": "B0BM5WP9L6",
+            "category": "LAWN_AND_GARDEN",
+            "quantity": 1,
+            "price": 11.85,
+            "marketPrice": 65.84,
+            "image": "m_81rHN7a4aILACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YeahBoom 3-częściowy zestaw lampek LED z przyssawką, na baterie, oświetlenie boż&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "LUXEAR Haki z przyssawkami, mocne haczyki na przyssawki próżniowe, wytrzymały uchwyt na przyssawkę, hak prysznicowy na ręcznik, luffa, biały, wodoodporny uchwyt z przyssawką, do łazienki, kuchni,",
+            "code2": "B07ML6BS7J",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 11.64,
+            "marketPrice": 64.67,
+            "image": "m_71aFwxI8OULACSL1491.jpg",
+            "photoLink": "https://www.google.com/search?q=LUXEAR Haki z przyssawkami, mocne haczyki na przyssawki próżniowe, wytrzymały uc&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Cloudsemi 24 sztuki bombek choinkowych, błyszczące i matowe, dekoracja bożonarodzeniowa, zawieszki",
+            "code2": "B08CRKDKJ7",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 10.11,
+            "marketPrice": 56.15,
+            "image": "m_71gFWdAyRKLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Cloudsemi 24 sztuki bombek choinkowych, błyszczące i matowe, dekoracja bożonarod&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "44PCS Weihnachtskugeln Set Christbaumkugeln Weihnachtsbaumschmuck Kugeln in Mehrfarbig Weihnachten Dekoration",
+            "code2": "B0C8928MJ7",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 10.11,
+            "marketPrice": 56.15,
+            "image": "m_81SO6HahdLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=44PCS Weihnachtskugeln Set Christbaumkugeln Weihnachtsbaumschmuck Kugeln in Mehr&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "6 bombek choinkowych 100 ml do napełniania, bombki z motywem z tworzywa sztucznego, nietłukące się, odporne na pękanie",
+            "code2": "B0DLB3DVFZ",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 10.11,
+            "marketPrice": 56.15,
+            "image": "m_81mMJANJ1SLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=6 bombek choinkowych 100 ml do napełniania, bombki z motywem z tworzywa sztuczne&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "SALCAR Łańcuch świetlny z 200 diodami LED, 2 m, na zewnątrz, łańcuch świetlny z 8 trybami pracy i pamięcią, wodoszczelne oświetlenie choinkowe, do użytku wewnątrz i na zewnątrz, do ogrodu, choinki, na",
+            "code2": "B0D1KFF6XC",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 10.11,
+            "marketPrice": 56.15,
+            "image": "m_71LiWFu3emLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=SALCAR Łańcuch świetlny z 200 diodami LED, 2 m, na zewnątrz, łańcuch świetlny z &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "POFET 24 szt. 4 cm niebieskie bombki choinkowe bombki ornament wisiorek na Boże Narodzenie festiwal przyjęcie dekoracje ogrodowe",
+            "code2": "B08X6FNFJR",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 10.02,
+            "marketPrice": 55.65,
+            "image": "m_61avYhHIE3LACSL1001.jpg",
+            "photoLink": "https://www.google.com/search?q=POFET 24 szt. 4 cm niebieskie bombki choinkowe bombki ornament wisiorek na Boże &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Salubrito Zimowy wosk zapachowy do lampy zapachowej, 100% wosku sojowego, zapach do pomieszczeń, świeca zapachowa, wosk do podgrzewaczy świec",
+            "code2": "B0D9GV2L2B",
+            "category": "FURNITURE",
+            "quantity": 2,
+            "price": 9.66,
+            "marketPrice": 53.64,
+            "image": "m_81izNE8nkoLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Salubrito Zimowy wosk zapachowy do lampy zapachowej, 100% wosku sojowego, zapach&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 6 pokrowców na krzesła na Boże Narodzenie + 6 mini czapek, na Boże Narodzenie, do dekoracji, na Boże Narodzenie, zestaw",
+            "code2": "B0DCRZFVJD",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 9.55,
+            "marketPrice": 53.06,
+            "image": "m_61gBsGVBE5LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 6 pokrowców na krzesła na Boże Narodzenie + 6 mini czapek, na Boże Narod&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Weihnachtsbaum Rock Plüsch, 78cm Weiß Kunstfell Weihnachtsbaum Rock Runder Christbaumständer Dekoration Teppich für Weihnachtsfeier Wohnkultur",
+            "code2": "B0B9XKPSGH",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 9.48,
+            "marketPrice": 52.64,
+            "image": "m_71y9sirVTILACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Weihnachtsbaum Rock Plüsch, 78cm Weiß Kunstfell Weihnachtsbaum Rock Rund&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "POFET Lampa grzewcza dla gadów 100 W z cyfrowym termometrem, ogrzewanie ceramiczne na podczerwień, emiter 220-230 V (czarna)",
+            "code2": "B08L93YK85",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 8.95,
+            "marketPrice": 49.71,
+            "image": "m_414tLhcOldLAC.jpg",
+            "photoLink": "https://www.google.com/search?q=POFET Lampa grzewcza dla gadów 100 W z cyfrowym termometrem, ogrzewanie ceramicz&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Geemoo Łańcuch świetlny LED Święty Mikołaj – 0,75 m oświetlenie bożonarodzeniowe LED, zasilanie prądem z timerem, funkcja pamięci, 8 trybów pracy, do użytku wewnątrz i na zewnątrz, na choinkę, okno,",
+            "code2": "B0CC575R2F",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 8.84,
+            "marketPrice": 49.13,
+            "image": "m_81HhOuWYYxLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Geemoo Łańcuch świetlny LED Święty Mikołaj – 0,75 m oświetlenie bożonarodzeniowe&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Anyingkai Drabina LED Święty Mikołaj, 1,75 m, łańcuch świetlny z timerem, funkcja pamięci, 8 trybów, do użytku wewnątrz i na zewnątrz, na choinkę, okno, dekoracja bożonarodzeniowa",
+            "code2": "B0DGGK12NN",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 8.81,
+            "marketPrice": 48.92,
+            "image": "m_61bC2THMHVLACSL1000.jpg",
+            "photoLink": "https://www.google.com/search?q=Anyingkai Drabina LED Święty Mikołaj, 1,75 m, łańcuch świetlny z timerem, funkcj&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Agoer 24 sztuczne kwiaty bożonarodzeniowe na choinkę, błyszczące złote kwiaty, 15 cm, dekoracja na wesela, imprezy, Boże Narodzenie",
+            "code2": "B0CCVRFT8T",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 7.96,
+            "marketPrice": 44.2,
+            "image": "m_81XZsI1LeLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Agoer 24 sztuczne kwiaty bożonarodzeniowe na choinkę, błyszczące złote kwiaty, 1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Dekoracyjny łańcuch świetlny 3D na Boże Narodzenie, oświetlenie bożonarodzeniowe, z przyssawką, łańcuch świetlny LED, zasilany bateriami, do użytku wewnątrz i na zewnątrz, dekoracja okna",
+            "code2": "B0CHJM9L1M",
+            "category": "LAWN_AND_GARDEN",
+            "quantity": 3,
+            "price": 7.58,
+            "marketPrice": 42.11,
+            "image": "m_71ua4HR4LJLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Dekoracyjny łańcuch świetlny 3D na Boże Narodzenie, oświetlenie bożonarodzeniowe&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 9 rozmiarów drutów dziewiarskich z bambusa, zestaw 80 cm, podwójne druty do robienia na drutach, naturalne druty bambusowe, dla początkujących i profesjonalistów (2,5/3,5/4,5/5,5/6/7/8/9/10",
+            "code2": "B0CN6LX25R",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 7.39,
+            "marketPrice": 41.07,
+            "image": "m_61yUp1469bLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 9 rozmiarów drutów dziewiarskich z bambusa, zestaw 80 cm, podwójne druty&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 2 silikonowe formy do pieczenia, okrągłe, 40 cm, nieprzywierające, warstwowe, silikonowe, do tortów warstwowych, serników i ciast tęczowych (czerwone)",
+            "code2": "B0DCBNL919",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 7.05,
+            "marketPrice": 39.19,
+            "image": "m_61ZirghQc2LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 2 silikonowe formy do pieczenia, okrągłe, 40 cm, nieprzywierające, warst&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "FIMAGO Mini choinka z oświetleniem, stół 60 cm, sztucznie udekorowana, dekoracja bożonarodzeniowa, z czubkiem w kształcie gwiazdy i wiszącą dekoracją choinki",
+            "code2": "B0DFWLC9WY",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 6.95,
+            "marketPrice": 38.6,
+            "image": "m_81ce2Bmy6iLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=FIMAGO Mini choinka z oświetleniem, stół 60 cm, sztucznie udekorowana, dekoracja&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Naszyjnik bożonarodzeniowy z pudełkiem na prezent – romantyczny łańcuszek z płatkami śniegu w ręcznie wykonanym pudełku prezentowym, prezent dla nastolatek i dziewcząt na Boże Narodzenie, Walentynki,",
+            "code2": "B0DG2HR3SF",
+            "category": "JEWELRY",
+            "quantity": 1,
+            "price": 6.95,
+            "marketPrice": 38.6,
+            "image": "m_71d5Xvyq2hLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Naszyjnik bożonarodzeniowy z pudełkiem na prezent – romantyczny łańcuszek z płat&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 2 silikonowe formy do pralinek bożonarodzeniowych, z powłoką zapobiegającą przywieraniu, z 25 pustymi przestrzeniami, formy do pralinek na Boże Narodzenie, formy do pieczenia z silikonu, na",
+            "code2": "B0DCJJTT7M",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 6.85,
+            "marketPrice": 38.06,
+            "image": "m_71wB2z9IQtLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 2 silikonowe formy do pralinek bożonarodzeniowych, z powłoką zapobiegają&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 2 silikonowe formy do pralinek bożonarodzeniowych, z powłoką zapobiegającą przywieraniu, z 14 pustymi przestrzeniami, formy do pralinek na Boże Narodzenie, formy do pieczenia z silikonu, do",
+            "code2": "B0DCHZ4ZJ4",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 6.83,
+            "marketPrice": 37.93,
+            "image": "m_71oGSwJbbELACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 2 silikonowe formy do pralinek bożonarodzeniowych, z powłoką zapobiegają&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "24 Stück Weihnachtskugel Christbaumkugeln Weihnachten Baumschmuck glänzend glitzernd matt Weihnachten Deko Anhänger",
+            "code2": "B08CR8BHKC",
+            "category": "HOME",
+            "quantity": 8,
+            "price": 6.56,
+            "marketPrice": 36.47,
+            "image": "m_71gFWdAyRKLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=24 Stück Weihnachtskugel Christbaumkugeln Weihnachten Baumschmuck glänzend glitz&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Foremki do czekolady w kształcie serca, 4 opakowania 15-wnękowych form gumowych i cukierków, nieprzywierające formy do pieczenia wielokrotnego użytku, na Boże Narodzenie i walentynki (brązowe)",
+            "code2": "B0CVVWXKBL",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 6.16,
+            "marketPrice": 34.22,
+            "image": "m_61WHWBGSOLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Foremki do czekolady w kształcie serca, 4 opakowania 15-wnękowych form gumowych &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Forma do ciasta z cyfrą 2, duże silikonowe cyfry 3D, formy do ciasta, do samodzielnego wykonania, nieprzywierające formy do ciasta na urodziny i rocznicę",
+            "code2": "B0D9DDLCKG",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 6.11,
+            "marketPrice": 33.92,
+            "image": "m_611ZyGuMIlLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Forma do ciasta z cyfrą 2, duże silikonowe cyfry 3D, formy do ciasta, do&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Forma do ciasta z numerem 4, duże silikonowe cyfry 3D, formy do ciasta, do samodzielnego wykonania, nieprzywierające formy do ciasta na urodziny i rocznicę",
+            "code2": "B0D9DDHDW8",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 6.04,
+            "marketPrice": 33.55,
+            "image": "m_61GkVGBmGMLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Forma do ciasta z numerem 4, duże silikonowe cyfry 3D, formy do ciasta, &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Forma do ciasta z cyfrą 6, duże silikonowe cyfry 3D, formy do ciasta, do samodzielnego wykonania, nieprzywierające formy do ciasta na urodziny i rocznicę",
+            "code2": "B0D9DF8J6T",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 5.96,
+            "marketPrice": 33.13,
+            "image": "m_61TaSJPQGnLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Forma do ciasta z cyfrą 6, duże silikonowe cyfry 3D, formy do ciasta, do&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "SIMIYA Przytulne skarpety damskie, rozmiar 39-42, grube skarpety z wypustkami, antypoślizgowe skarpety zimowe, skarpety bożonarodzeniowe, przytulne",
+            "code2": "B0C9BSSTHB",
+            "category": "APPAREL",
+            "quantity": 63,
+            "price": 5.68,
+            "marketPrice": 31.54,
+            "image": "m_71OLepGcEHLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=SIMIYA Przytulne skarpety damskie, rozmiar 39-42, grube skarpety z wypustkami, a&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "OXYN Zestaw kokardek z kokardkami gwiazdki dekoracje na prezenty świąteczne urodziny imprezy wesela opakowanie rzemiosło opakowanie samoprzylepne błyszczące naklejki (czerwone, 6 sztuk 9 cm)",
+            "code2": "B0DKXXSYF3",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 5.41,
+            "marketPrice": 30.08,
+            "image": "m_71gXdycosLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=OXYN Zestaw kokardek z kokardkami gwiazdki dekoracje na prezenty świąteczne urod&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Weihnachtszug Holz, Kleiner Zug Weihnachts Dekoration Neujahr Ornament Weihnachtszug mit Schneemann Spielzeug für Kinder Mädchen Junge (Rot)",
+            "code2": "B09GK3V1SY",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 5.36,
+            "marketPrice": 29.79,
+            "image": "m_6178zIMg0vLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Weihnachtszug Holz, Kleiner Zug Weihnachts Dekoration Neujahr Ornament W&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Forma do ciasta z numerem 7, duże silikonowe cyfry 3D, formy do ciasta, do samodzielnego wykonania, nieprzywierające formy do ciasta na urodziny i rocznicę",
+            "code2": "B0D9DDBGT9",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 5.3,
+            "marketPrice": 29.45,
+            "image": "m_61A3VbFayDLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Forma do ciasta z numerem 7, duże silikonowe cyfry 3D, formy do ciasta, &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Forma do ciasta z numerem 3, duże silikonowe cyfry 3D, formy do ciasta, do samodzielnego wykonania, nieprzywierające formy do ciasta na urodziny i rocznicę",
+            "code2": "B0D9DD15BF",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 5.23,
+            "marketPrice": 29.04,
+            "image": "m_613vXP8jvCLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Forma do ciasta z numerem 3, duże silikonowe cyfry 3D, formy do ciasta, &source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Bambus Rundstricknadel Set, 8 Größen 80cm Stricknadelset mit Klaren Kunststoffröhren, Doppelspitzige Rundstricknadeln für Tücher Schals Pullover Decken（2/2,5/3/4/5/6/7/8 mm）",
+            "code2": "B0CN6KZ84G",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 5.2,
+            "marketPrice": 28.87,
+            "image": "m_51Nv1zdShvLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Bambus Rundstricknadel Set, 8 Größen 80cm Stricknadelset mit Klaren Kuns&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 4 silikonowe formy na Boże Narodzenie, z powłoką zapobiegającą przywieraniu, z 12 pustymi przestrzeniami, silikonowe formy do pralinek, na Boże Narodzenie, formy do pieczenia pralinek,",
+            "code2": "B0DCJ137DR",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 5.18,
+            "marketPrice": 28.78,
+            "image": "m_61H3AXMN7SLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 4 silikonowe formy na Boże Narodzenie, z powłoką zapobiegającą przywiera&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 2 Stück Silikonform Schokolade, Silikonform für 6 Mulden Schokolade,Antihaft Schokoladenform in Lebensmittelqualität,Ice Cube Moulds,Fondantform(Braun)",
+            "code2": "B0CVVQ3YW1",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 5.01,
+            "marketPrice": 27.82,
+            "image": "m_6190EDM6kRLACSL1499.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 2 Stück Silikonform Schokolade, Silikonform für 6 Mulden Schokolade,Anti&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Silikonowe foremki do talerzy, nieprzywierające formy do czekolady, foremki na cukierki, foremki do krówek, do gofrów, ciasteczek, galaretek, kostek lodu, 4 szt. (brązowe)",
+            "code2": "B0D5CH1K6J",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 4.96,
+            "marketPrice": 27.53,
+            "image": "m_71nhilSrmNLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Silikonowe foremki do talerzy, nieprzywierające formy do czekolady, fore&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 2 cylindryczne formy do czekolady z 15 pustymi otworami, wzorzyste formy do czekolady, bez BPA, nieprzywierająca powłoka z ręcznie robionego mydła, czekolady, świec mydlanych i galaretek",
+            "code2": "B0DCBPZ1ZH",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 4.93,
+            "marketPrice": 27.41,
+            "image": "m_71LotgzE6mLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 2 cylindryczne formy do czekolady z 15 pustymi otworami, wzorzyste formy&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "OXYN Set 8 Coccarde 4 Nastri 5mm 10 Metri Filo Fiocchi Stelle Decorazione per Regali Pacchi Natale Compleanno Feste Matrimoni Confezione Artigianato Confezionamento Autoadesivi Scintillanti (Rosso)",
+            "code2": "B0CK2F8DL8",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 4.92,
+            "marketPrice": 27.36,
+            "image": "m_81SNjo1JO2LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=OXYN Set 8 Coccarde 4 Nastri 5mm 10 Metri Filo Fiocchi Stelle Decorazione per Re&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "OXYN Zestaw Coccarde Płatki Gwiazdy Dekoracja na Prezenty Boże Narodzenie Urodziny Wesela Opakowanie Rzemiosło Naklejki Błyszczące Naklejki (15 sztuk 8 cm, Czerwony)",
+            "code2": "B0CK4X1YQR",
+            "category": "FURNITURE",
+            "quantity": 1,
+            "price": 4.92,
+            "marketPrice": 27.36,
+            "image": "m_919KUs9j6HLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=OXYN Zestaw Coccarde Płatki Gwiazdy Dekoracja na Prezenty Boże Narodzenie Urodzi&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 4 silikonowe formy do czekolady, łamliwe formy do czekolady, nieprzywierające formy do czekolady, o jakości spożywczej, słodycze, białko",
+            "code2": "B0DG8JHYZJ",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 4.29,
+            "marketPrice": 23.81,
+            "image": "m_61BdbZk0ILACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 4 silikonowe formy do czekolady, łamliwe formy do czekolady, nieprzywier&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Party Tischdecke Einweg, Plastik Tischdecke Weiß Gold Dot Geburtstag Tischdecke für Abschlussfeier Jahrestag Hochzeit Einweihungsparty (137 x 274 cm)",
+            "code2": "B0CFXCMF2S",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 4.26,
+            "marketPrice": 23.65,
+            "image": "m_61nEmZoYb4LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Party Tischdecke Einweg, Plastik Tischdecke Weiß Gold Dot Geburtstag Tis&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "Silikonowe formy do czekolady, nieprzywierające formy do czekolady, czekolady, czekoladowe foremki do robienia przekąsek, ciasteczek, kostek lodu, 4 szt. (brązowe)",
+            "code2": "B0D5CHYW7F",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 4.24,
+            "marketPrice": 23.56,
+            "image": "m_71KPHzsBf9LACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=Silikonowe formy do czekolady, nieprzywierające formy do czekolady, czekolady, c&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Silikonowa forma do batoników czekoladowych, t Break Apart Formy do czekolady, silikonowe formy do cukierków, nieprzywierające formy do pieczenia wielokrotnego użytku DIY",
+            "code2": "B0D6VXVR22",
+            "category": "HOME",
+            "quantity": 1,
+            "price": 3.93,
+            "marketPrice": 21.81,
+            "image": "m_611OWytRgTLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Silikonowa forma do batoników czekoladowych, t Break Apart Formy do czek&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON Silikonowa forma do batoników czekoladowych, t Break Apart Formy do czekolady, silikonowe formy do cukierków, nieprzywierające formy do pieczenia wielokrotnego użytku DIY",
+            "code2": "B0D6VXVR22",
+            "category": "HOME",
+            "quantity": 8,
+            "price": 3.88,
+            "marketPrice": 21.56,
+            "image": "m_611OWytRgTLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON Silikonowa forma do batoników czekoladowych, t Break Apart Formy do czek&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        },
+        {
+            "name": "YXHZVON 1 x foremka do czekolady, 35 otworów, forma do pralinek, kula, silikonowa forma do samodzielnego wykonania, do samodzielnego wykonania, galaretki, kostek lodu, cukierków (biała)",
+            "code2": "B0CQN7T9D7",
+            "category": "HOME",
+            "quantity": 2,
+            "price": 3.78,
+            "marketPrice": 21.01,
+            "image": "m_51kiDKhSwzLACSL1500.jpg",
+            "photoLink": "https://www.google.com/search?q=YXHZVON 1 x foremka do czekolady, 35 otworów, forma do pralinek, kula, silikonow&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSn6nExoniAhUvQRUIHab-DuYQ_AUIDigB&biw=1745&bih=852"
+        }
+    ]
+}
