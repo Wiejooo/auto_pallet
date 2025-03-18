@@ -149,5 +149,16 @@ def check_offerts(words):
             }
     return pallets_to_buy
 
-# print(check_offerts(['golarka', 'ekran', 'kamizelka', 'statyw']))
     
+def summary():
+    # Wczytanie pliku
+    json_path = 'both_pallets.json'
+    summary = 'Zakupiono za: 1000\n'
+    with open(json_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    # Sumowanie ceny
+    summary_cost = ''
+    for item in data.items():
+
+    
+        return

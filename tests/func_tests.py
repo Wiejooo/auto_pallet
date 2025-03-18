@@ -5,16 +5,12 @@ import os
 
 def check_offerts_TEST(words):
     """Sprawdza oferty"""
-    test_pallets = [
-        {'id': '63228', 'code': 'F111', 'priceGross':'111'},
-        {'id': '63230', 'code': 'F222', 'priceGross':'222'},
-        {'id': '63237', 'code': 'F333', 'priceGross':'333'},
-    ]
     pallets_to_buy = {}
 
-    for pallet in test_pallets:
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        json_path = os.path.join(base_dir, 'json', f'{pallet["id"]}.json')
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    full_folder_path = os.path.join(base_dir, 'json')
+    for pallet in os.listdir(full_folder_path):
+        json_path = os.path.join(base_dir, 'json', pallet)
         with open(json_path, 'r', encoding='utf-8') as file:        
             products = json.load(file)['data']
 
@@ -28,10 +24,10 @@ def check_offerts_TEST(words):
 
         # ID palet do kupienia
         if find_words != {}:
-            pallets_to_buy[pallet['code']] = {
-                'price': pallet['priceGross'],
+            pallets_to_buy[pallet[:-5]] = {
+                'price': '123',
                 "items": find_words,
             }
     return pallets_to_buy
 
-print(check_offerts_TEST(['zmywarka', 'Etui', 'foremka', 'Puszek']) )
+# print(check_offerts_TEST(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor']))
