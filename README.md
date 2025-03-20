@@ -2,5 +2,6 @@
 automatic pallet purchasing
 
 # TODO
-Dodaj w funkcji zakupów palet, tworzenie nowego json'a, do wykorzystania w podsumowaniu
+Tworzysz plik JSON
+Jak na nim operować podczas cykliczności programu - do zastanowienia
 Napisz funkcje do podsumowania zakupów - summary

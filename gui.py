@@ -66,7 +66,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def buy_pallet(self):
         """Zakup palety i zwrócenie danych"""
         if self.key_words() != ['']:
-            find = functions.check_offerts(self.key_words())
+            find = functions.make_operation(self.key_words())
             
             # Formatowanie danych do stringa
             result_lines = []

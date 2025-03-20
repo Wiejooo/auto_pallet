@@ -1,0 +1,32 @@
+{
+    "creation_date": "2025-03-20_22-10",
+    "data": {
+        "63228": {
+            "price": "123",
+            "items": {
+                "zmywarka": 2
+            }
+        },
+        "63230": {
+            "price": "123",
+            "items": {
+                "puszek": 1,
+                "etui": 5
+            }
+        },
+        "63237": {
+            "price": "123",
+            "items": {
+                "foremka": 2
+            }
+        },
+        "63359": {
+            "price": "123",
+            "items": {
+                "monitor": 10,
+                "etui": 41,
+                "puszek": 3
+            }
+        }
+    }
+}

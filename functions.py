@@ -2,7 +2,14 @@ import requests
 import json
 import os
 import time
+import datetime
 
+def save_date():
+    """Zwraca datę do zapisu"""
+    string_date = str(datetime.datetime.now())[:-10]
+    string_date = string_date.replace(':', '-')
+    string_date = string_date.replace(' ', '_')
+    return string_date
 
 def measure_time(func):
     """Odmierza czas funkcji"""
@@ -94,9 +101,13 @@ def find_newest_pallet():
         return 'Błąd przy sprawdzaniu najnowszych palet'
 
 # @measure_time
-def check_offerts(words):
-    """Sprawdza oferty"""
-    pallets_to_buy = {}
+def make_operation(words):
+    """Tworzy plik JSON do zakupów jednej operacji"""
+    current_time = save_date()
+    pallets_to_buy = {
+        "creation_date" : current_time,
+        "data": {}
+    }
     URL = 'https://sklepapi.miglo.pl/api/product/List'
     token = find_token()
     headers = {
@@ -143,11 +154,17 @@ def check_offerts(words):
 
         # ID palet do kupienia
         if find_words != {}:
-            pallets_to_buy[pallet['productCode']] = {
+            pallets_to_buy["data"][pallet['productCode']] = {
                 'price': pallet['priceGross'],
                 "items": find_words,
             }
-    return pallets_to_buy
+
+        # Stworzenie nowego JSON'a
+        json_name = f'{current_time}-operation.json'
+        with open(f'tests/operation_history_TEST/{json_name}', 'w', encoding='utf-8') as file:
+            json.dump(pallets_to_buy, file, indent=4, ensure_ascii=False)
+    return json_name
+
 
     
 def summary():
