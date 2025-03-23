@@ -1,6 +1,7 @@
 import functions
 import json
 import os
+import requests
 from PyQt6 import QtWidgets
 from PyQt6.QtCore import QTimer, QTime
 from gui_designer import Ui_MainWindow
@@ -27,6 +28,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui.start.clicked.connect(self.start_cleaning)
         self.ui.start.clicked.connect(self.make_json_file)
         self.ui.stop.clicked.connect(self.stop_cyclicality)
+        self.ui.test.clicked.connect(self.test_program)
 
         # Zakupione palety
         self.scroll_layout = QtWidgets.QVBoxLayout()
@@ -115,14 +117,13 @@ class MainWindow(QtWidgets.QMainWindow):
         find_str = "\n\n".join(result_lines)
         # Aktualizacja labela w GUI
         self.label_pallets.setText(find_str)
-        
 
     def start_cyclicality(self):
         """Cykliczność programu"""
         self.start_timer()
         self.key_words()
         self.timer_loop = QTimer(self)
-        # self.timer_loop.timeout.connect(self.show_newest_pallets)
+        self.timer_loop.timeout.connect(self.show_newest_pallets)
         self.timer_loop.timeout.connect(self.buy_pallet)
         self.timer_loop.timeout.connect(self.summary)
         self.timer_loop.start(3500)
@@ -132,6 +133,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.label_pallets.setText('')
         # Wyczyszczenie okna Najnowsze palety
         self.ui.newest_list.setText('')
+        # Wyczyszczenie okna Podsumowanie
+        self.ui.summary_list.setText('')
 
     def stop_cyclicality(self):
         """Zatrzymanie cykliczności"""
@@ -160,3 +163,16 @@ class MainWindow(QtWidgets.QMainWindow):
 
         show = f'Wydano w sumie: {summary_cost} brutto\n\n{summary_items_text}'
         self.ui.summary_list.setText(show)
+
+    def test_program(self):
+        status = ''
+        # Sprawdzenie łączności
+        URL = "https://b2b.miglo.pl/"
+        response = requests.get(URL)
+        if response.status_code != 200:
+            status = 'Błąd związany z połączeniem Miglo'
+
+        if status != '':
+            self.ui.summary_list.setText(status)
+            
+
