@@ -11,13 +11,15 @@ def save_date():
     string_date = string_date.replace(' ', '_')
     return string_date
 
-def check_offerts_TEST(words):
+def check_offerts_TEST(words, file_json):
     """Sprawdza oferty"""
-    current_time = save_date()
-    pallets_to_buy = {
-        "creation_date" : current_time,
-        "data": {}
-    }
+
+    # Wczytanie pliku json
+    with open(f'tests/operation_history_TEST/{file_json}', 'r', encoding='utf-8') as file:
+        json_file = json.load(file)
+    # Wyczyszczenie pliku json
+    json_file['data'] = {}
+
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
     full_folder_path = os.path.join(base_dir, 'json_TEST')
@@ -34,17 +36,18 @@ def check_offerts_TEST(words):
                 if word in product['name'].lower():
                     find_words[word] = find_words.get(word, 0) + int(product['quantity'])
 
+        productCode = str(pallet[:-5])
         # ID palet do kupienia
         if find_words != {}:
-            pallets_to_buy["data"][pallet[:-5]] = {
-                'price': '123',
+            json_file["data"][productCode] = {
+                'price': '100',
                 "items": find_words,
+                "both": False
             }
+    
+    # Zapisanie danych
+    with open(f'tests/operation_history_TEST/{file_json}', 'w', encoding='utf-8') as file:
+        json.dump(json_file, file, indent=4, ensure_ascii=False)
         
-        # Stworzenie nowego JSON'a
-        json_name = f'{current_time}-operation.json'
-        with open(f'tests/operation_history_TEST/{json_name}', 'w', encoding='utf-8') as file:
-            json.dump(pallets_to_buy, file, indent=4, ensure_ascii=False)
-    return pallets_to_buy
 
-print(check_offerts_TEST(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor']))
+# print(check_offerts_TEST(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor']))

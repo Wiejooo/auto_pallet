@@ -6,7 +6,7 @@ import datetime
 
 def save_date():
     """Zwraca datę do zapisu"""
-    string_date = str(datetime.datetime.now())[:-10]
+    string_date = str(datetime.datetime.now())[:-7]
     string_date = string_date.replace(':', '-')
     string_date = string_date.replace(' ', '_')
     return string_date
@@ -101,13 +101,9 @@ def find_newest_pallet():
         return 'Błąd przy sprawdzaniu najnowszych palet'
 
 # @measure_time
-def make_operation(words):
-    """Tworzy plik JSON do zakupów jednej operacji"""
-    current_time = save_date()
-    pallets_to_buy = {
-        "creation_date" : current_time,
-        "data": {}
-    }
+def fill_file(words, file_name):
+    """Wstrzyknięcie danych podczas jednej operacji"""
+
     URL = 'https://sklepapi.miglo.pl/api/product/List'
     token = find_token()
     headers = {
@@ -134,13 +130,17 @@ def make_operation(words):
         "QtyOnPalletMin": None,
         "QtyOnPalletMax": None
     }
-    # Znalezienie ID ofert
+    # Wczytanie pliku json
+    with open(f'operation_history/{file_name}', 'r', encoding='utf-8') as file:
+        json_file = json.load(file)
+
+    # Znalezienie ID palet
     with requests.Session() as session:
         response = session.post(URL, json=request, headers=headers).json()
     for pallet in response['data']['products']:
         pallet_id = pallet['id']
 
-        # Znalezienie produktów oferty
+        # Znalezienie produktów palety
         URL = f'https://sklepapi.miglo.pl/api/product/Specification/{pallet_id}'
         products = session.get(URL, headers=headers).json()['data']
     
@@ -152,30 +152,20 @@ def make_operation(words):
                 if word in product['name'].lower():
                     find_words[word] = find_words.get(word, 0) + int(product['quantity'])
 
+        
+
         # ID palet do kupienia
         if find_words != {}:
-            pallets_to_buy["data"][pallet['productCode']] = {
+            json_file["data"][pallet['productCode']] = {
                 'price': pallet['priceGross'],
                 "items": find_words,
             }
 
-        # Stworzenie nowego JSON'a
-        json_name = f'{current_time}-operation.json'
-        with open(f'tests/operation_history_TEST/{json_name}', 'w', encoding='utf-8') as file:
-            json.dump(pallets_to_buy, file, indent=4, ensure_ascii=False)
-    return json_name
-
+    # Zapisanie danych
+    with open(f'operation_history/{file_name}', 'w', encoding='utf-8') as file:
+        json.dump(json_file, file, indent=4, ensure_ascii=False)
 
     
-def summary():
-    # Wczytanie pliku
-    json_path = 'both_pallets.json'
-    summary = 'Zakupiono za: 1000\n'
-    with open(json_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    # Sumowanie ceny
-    summary_cost = ''
-    for item in data.items():
 
-    
-        return
+
+# print(summary(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor']))

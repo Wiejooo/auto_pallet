@@ -1,3 +1,6 @@
+operation_history/*
+operation_history_TEST/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
