@@ -83,16 +83,23 @@ class MainWindow(QtWidgets.QMainWindow):
             # Wypełnienie pliku json
             functions.fill_file(self.key_words(), self.json_name)
 
-            # Kupienie palet
-            # WIP
-
-            # Zaznaczenie palety jako kupionej
-            # WIP
-
-            # Wyświetlenie zawartości pliku json
+            # Załądowanie zawartości pliku json
             json_path = os.path.join(os.path.dirname(__file__), "operation_history", self.json_name)
             with open(json_path, 'r', encoding='utf-8') as file:
                 json_file = json.load(file)
+
+            # Kupienie palet
+            for pallet_name, data in json_file['data'].items():
+                if data.get('both') is False:
+                    print(f'Dodaje {pallet_name}')
+                    status_code = functions.add_to_card(data['id'])
+                    if status_code == 200:
+                        data['both'] = True
+                    else:
+                        print(f'Błąd przy próbie kupna {pallet_name}')
+            with open(json_path, 'w', encoding='utf-8') as file:
+                            json.dump(json_file, file, indent=4, ensure_ascii=False)
+
             # Formatowanie danych do stringa
             result_lines = []
             for pallet_name, data in json_file['data'].items():
@@ -126,7 +133,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.timer_loop.timeout.connect(self.show_newest_pallets)
         self.timer_loop.timeout.connect(self.buy_pallet)
         self.timer_loop.timeout.connect(self.summary)
-        self.timer_loop.start(3500)
+        self.timer_loop.start(3000)
 
     def start_cleaning(self):
         # Wyczyszczenie okna Kupione palety

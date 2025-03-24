@@ -41,8 +41,7 @@ def find_token():
         return "Błąd przy logowaniu"
 
 
-product_id = 62530
-def add_to_card():
+def add_to_card(product_id):
     URL = 'https://sklepapi.miglo.pl/api/Cart/AddItem'
     request = {
         "OfferId": product_id,
@@ -57,9 +56,10 @@ def add_to_card():
         }
     response = requests.post(URL, json=request, headers=headers)
     if response.status_code == 200:
-        return f'Status dodania do koszyka: {response.text}'
+        f'Status dodania do koszyka: {response.text}'
     else:
-        return 'Błąd przy dodawaniu do koszyka'
+        'Błąd przy dodawaniu do koszyka'
+    return response.status_code 
     
 
 def find_newest_pallet():
@@ -133,12 +133,18 @@ def fill_file(words, file_name):
     # Wczytanie pliku json
     with open(f'operation_history/{file_name}', 'r', encoding='utf-8') as file:
         json_file = json.load(file)
+    all_id = []
+    for palet, data in json_file['data'].items():
+        all_id.append(data['id'])
 
     # Znalezienie ID palet
     with requests.Session() as session:
-        response = session.post(URL, json=request, headers=headers).json()
+        response = session.post(URL, json=request, headers=headers).json()    
     for pallet in response['data']['products']:
+        # Zabezpieczenie przed powtórnym sprawdzeniem palety
         pallet_id = pallet['id']
+        if pallet_id in all_id:
+            continue
 
         # Znalezienie produktów palety
         URL = f'https://sklepapi.miglo.pl/api/product/Specification/{pallet_id}'
@@ -157,8 +163,10 @@ def fill_file(words, file_name):
         # ID palet do kupienia
         if find_words != {}:
             json_file["data"][pallet['productCode']] = {
+                'id': pallet_id,
                 'price': pallet['priceGross'],
                 "items": find_words,
+                "both": False,
             }
 
     # Zapisanie danych
@@ -168,4 +176,4 @@ def fill_file(words, file_name):
     
 
 
-# print(summary(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor']))
+# print(fill_file(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor'], '2025-03-24_19-51-36-operation.json'))
