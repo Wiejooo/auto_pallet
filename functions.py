@@ -151,6 +151,7 @@ def fill_file(words, file_name):
         products = session.get(URL, headers=headers).json()['data']
     
         # Sprawdzenine słów w produktach
+        print(words)
         word_set = set(word.lower() for word in words)
         find_words = {}
         for product in products:
@@ -172,8 +173,3 @@ def fill_file(words, file_name):
     # Zapisanie danych
     with open(f'operation_history/{file_name}', 'w', encoding='utf-8') as file:
         json.dump(json_file, file, indent=4, ensure_ascii=False)
-
-    
-
-
-# print(fill_file(['zmywarka', 'Etui', 'foremka', 'Puszek', 'Monitor'], '2025-03-24_19-51-36-operation.json'))

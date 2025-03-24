@@ -1,9 +1,10 @@
 import functions
 import json
 import os
-import requests
+import re
 from PyQt6 import QtWidgets
 from PyQt6.QtCore import QTimer, QTime
+from PyQt6.QtGui import QIcon
 from gui_designer import Ui_MainWindow
 from tests import func_tests
 
@@ -12,6 +13,8 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.json_name = f'{functions.save_date()}-operation.json'
+        # Ikonka
+        self.setWindowIcon(QIcon("img/paletaa.jpg"))
 
         # Ładujemy interfejs z Qt Designer
         self.ui = Ui_MainWindow()
@@ -64,7 +67,9 @@ class MainWindow(QtWidgets.QMainWindow):
     def key_words(self):
         """Wpisane słowa w textarea"""
         words = self.ui.textEdit.toPlainText()
-        words = words.split(' ')
+        filtered_words = re.findall(r'"(.*?)"', words)
+        filtered_words = [word.strip() for word in filtered_words if word.strip()]
+        print(words)
         return words
     
     def make_json_file(self):
@@ -171,15 +176,37 @@ class MainWindow(QtWidgets.QMainWindow):
         show = f'Wydano w sumie: {summary_cost} brutto\n\n{summary_items_text}'
         self.ui.summary_list.setText(show)
 
-    def test_program(self):
-        status = ''
-        # Sprawdzenie łączności
-        URL = "https://b2b.miglo.pl/"
-        response = requests.get(URL)
-        if response.status_code != 200:
-            status = 'Błąd związany z połączeniem Miglo'
+    def test_program(self): # TODO dokończ zabezpieczenie do text area + dodaj funckcje kupowania koszyka
+        t = ''
+        for word in self.key_words():
+            t += word + '\n'
+        self.ui.summary_list.setText(t)
+        # status = ''
+        
+        # # Sprawdzenie łączności
+        # response = requests.get("https://b2b.miglo.pl/")
+        # if response.status_code != 200:
+        #     status += 'Błąd z połączeniem Miglo\n'
+        
+        # # Sprawdzenie tokena
+        # if functions.find_token() == 'Błąd przy logowaniu':
+        #     status += "Błąd przy odczytaniu tokena\n"
 
-        if status != '':
-            self.ui.summary_list.setText(status)
+        # # Sprawdzenie najnowszych palet
+        # if functions.find_newest_pallet() == 'Błąd przy sprawdzaniu najnowszych palet':
+        #     status += 'Błąd przy sprawdzaniu najnowszych palet\n'
+        
+        # # Sprawdzenie tworzenia json
+        # with open(f'test.json', 'w', encoding='utf-8') as file:
+        #     json.dump({'test': 'test'}, file, indent=4, ensure_ascii=False)
+        # if os.path.exists('test.json'):
+        #     os.remove('test.json')
+        # else:
+        #     status += "Błąd z tworzeniem pliku json\n"
+
+        # if status != '':
+        #     self.ui.summary_list.setText(status)
+        # else:
+        #     self.ui.summary_list.setText('Jest git')
             
 
