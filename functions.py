@@ -151,7 +151,6 @@ def fill_file(words, file_name):
         products = session.get(URL, headers=headers).json()['data']
     
         # Sprawdzenine słów w produktach
-        print(words)
         word_set = set(word.lower() for word in words)
         find_words = {}
         for product in products:
@@ -173,3 +172,53 @@ def fill_file(words, file_name):
     # Zapisanie danych
     with open(f'operation_history/{file_name}', 'w', encoding='utf-8') as file:
         json.dump(json_file, file, indent=4, ensure_ascii=False)
+
+def buy_cart():
+    """Zatwierdzenie koszyka - kupno"""
+    URL = 'https://sklepapi.miglo.pl/api/Cart/OrderCheckout'
+    request = {
+        "ComapnyId": None,
+        "Customer": {
+            "Id": 0,
+            "Acronym": "JAKUB KAPROŃ ",
+            "CompanyEmail": "kubakp1088@gmail.com",
+            "FirstName": None,
+            "LastName": None,
+            "CompanyName": "Jakub Kaproń",
+            "Street": "Różana 45",
+            "City": "Końskowola",
+            "PostCode": "24-130",
+            "Phone": "510828522",
+            "Nip": "PL7162834561",
+            "Country": "PL"
+        },
+        "DeliveryAddressId": None,
+        "Address": {
+            "Id": 9438,
+            "CustomerId": 0,
+            "Acronim": "JAKUB KAPROŃ ",
+            "Email": "kubakp1088@gmail.com",
+            "CompanyName": "Jakub Kaproń",
+            "Street": "Różana 45",
+            "City": "Końskowola",
+            "PostCode": "24-130",
+            "Phone": "510828522",
+            "Country": "PL",
+            "Default": True,
+            "SaveAddress": False
+        },
+        "PaymentMethod": 2,
+        "DeliveryMethod": 4,
+        "OrderDesc": None
+    }
+    token = find_token()
+    headers = {
+        "Content-Type":"application/json; charset=utf-8",
+        "Accept":"*/*",
+        "Authorization":f"Bearer {token}",
+        }
+    response = requests.post(URL, json=request, headers=headers)
+    if response.status_code == 200:
+        return "OK"
+    else:
+        return "Błąd przy zatwierdzaniu koszyka"

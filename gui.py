@@ -2,6 +2,7 @@ import functions
 import json
 import os
 import re
+import requests
 from PyQt6 import QtWidgets
 from PyQt6.QtCore import QTimer, QTime
 from PyQt6.QtGui import QIcon
@@ -68,9 +69,8 @@ class MainWindow(QtWidgets.QMainWindow):
         """Wpisane słowa w textarea"""
         words = self.ui.textEdit.toPlainText()
         filtered_words = re.findall(r'"(.*?)"', words)
-        filtered_words = [word.strip() for word in filtered_words if word.strip()]
-        print(words)
-        return words
+        print(filtered_words)
+        return filtered_words
     
     def make_json_file(self):
         # Stworzenie nowego JSON'a
@@ -84,7 +84,7 @@ class MainWindow(QtWidgets.QMainWindow):
     
     def buy_pallet(self):
         """Zakup palety i zwrócenie danych"""
-        if self.key_words() != ['']:
+        if self.key_words() != []:
             # Wypełnienie pliku json
             functions.fill_file(self.key_words(), self.json_name)
 
@@ -96,14 +96,19 @@ class MainWindow(QtWidgets.QMainWindow):
             # Kupienie palet
             for pallet_name, data in json_file['data'].items():
                 if data.get('both') is False:
-                    print(f'Dodaje {pallet_name}')
                     status_code = functions.add_to_card(data['id'])
                     if status_code == 200:
                         data['both'] = True
+                        # status = functions.buy_cart()
+                        # if status == "OK":
+                        #     "OK"
+                        # else:
+                        #     print("Błąd przy zatwierdzaniu koszyka")
                     else:
                         print(f'Błąd przy próbie kupna {pallet_name}')
+            # Zapisanie pliku
             with open(json_path, 'w', encoding='utf-8') as file:
-                            json.dump(json_file, file, indent=4, ensure_ascii=False)
+                json.dump(json_file, file, indent=4, ensure_ascii=False)
 
             # Formatowanie danych do stringa
             result_lines = []
@@ -176,37 +181,33 @@ class MainWindow(QtWidgets.QMainWindow):
         show = f'Wydano w sumie: {summary_cost} brutto\n\n{summary_items_text}'
         self.ui.summary_list.setText(show)
 
-    def test_program(self): # TODO dokończ zabezpieczenie do text area + dodaj funckcje kupowania koszyka
-        t = ''
-        for word in self.key_words():
-            t += word + '\n'
-        self.ui.summary_list.setText(t)
-        # status = ''
+    def test_program(self):
+        status = ''
         
-        # # Sprawdzenie łączności
-        # response = requests.get("https://b2b.miglo.pl/")
-        # if response.status_code != 200:
-        #     status += 'Błąd z połączeniem Miglo\n'
+        # Sprawdzenie łączności
+        response = requests.get("https://b2b.miglo.pl/")
+        if response.status_code != 200:
+            status += 'Błąd z połączeniem Miglo\n'
         
-        # # Sprawdzenie tokena
-        # if functions.find_token() == 'Błąd przy logowaniu':
-        #     status += "Błąd przy odczytaniu tokena\n"
+        # Sprawdzenie tokena
+        if functions.find_token() == 'Błąd przy logowaniu':
+            status += "Błąd przy odczytaniu tokena\n"
 
-        # # Sprawdzenie najnowszych palet
-        # if functions.find_newest_pallet() == 'Błąd przy sprawdzaniu najnowszych palet':
-        #     status += 'Błąd przy sprawdzaniu najnowszych palet\n'
+        # Sprawdzenie najnowszych palet
+        if functions.find_newest_pallet() == 'Błąd przy sprawdzaniu najnowszych palet':
+            status += 'Błąd przy sprawdzaniu najnowszych palet\n'
         
-        # # Sprawdzenie tworzenia json
-        # with open(f'test.json', 'w', encoding='utf-8') as file:
-        #     json.dump({'test': 'test'}, file, indent=4, ensure_ascii=False)
-        # if os.path.exists('test.json'):
-        #     os.remove('test.json')
-        # else:
-        #     status += "Błąd z tworzeniem pliku json\n"
+        # Sprawdzenie tworzenia json
+        with open(f'test.json', 'w', encoding='utf-8') as file:
+            json.dump({'test': 'test'}, file, indent=4, ensure_ascii=False)
+        if os.path.exists('test.json'):
+            os.remove('test.json')
+        else:
+            status += "Błąd z tworzeniem pliku json\n"
 
-        # if status != '':
-        #     self.ui.summary_list.setText(status)
-        # else:
-        #     self.ui.summary_list.setText('Jest git')
+        if status != '':
+            self.ui.summary_list.setText(status)
+        else:
+            self.ui.summary_list.setText('Jest git')
             
 
