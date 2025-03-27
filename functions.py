@@ -3,6 +3,7 @@ import json
 import os
 import time
 import datetime
+import sys
 
 def save_date():
     """Zwraca datę do zapisu"""
@@ -22,16 +23,16 @@ def measure_time(func):
     return wrapper
 
 # Wczytanie danych logowania
-login_json_path = os.path.join(os.path.dirname(__file__), "..", "login_miglo.json")
-with open(login_json_path, 'r', encoding="utf-8") as file:
-    json_login_data = json.load(file)
+# login_json_path = os.path.abspath("login_miglo.json")
+# with open(login_json_path, 'r', encoding="utf-8") as file:
+#     json_login_data = json.load(file)
 
 def find_token():
     """Oddaje token"""
     login_url = 'https://sa.miglo.pl/api/account/login'
     login_data = {
-        'Email': json_login_data['login'],
-        'Password': json_login_data['password']
+        'Email': 'XXX',
+        'Password': 'XXX'
     }
     response = requests.post(login_url, json=login_data)
     if response.status_code == 200:
@@ -130,9 +131,13 @@ def fill_file(words, file_name):
         "QtyOnPalletMin": None,
         "QtyOnPalletMax": None
     }
+    json_path = os.path.abspath(f"operation_history/{file_name}")
     # Wczytanie pliku json
-    with open(f'operation_history/{file_name}', 'r', encoding='utf-8') as file:
-        json_file = json.load(file)
+    try:
+        with open(json_path, 'r', encoding='utf-8') as file:
+            json_file = json.load(file)
+    except Exception:
+        print(f'Błąd: {Exception}') 
     all_id = []
     for palet, data in json_file['data'].items():
         all_id.append(data['id'])
@@ -170,8 +175,11 @@ def fill_file(words, file_name):
             }
 
     # Zapisanie danych
-    with open(f'operation_history/{file_name}', 'w', encoding='utf-8') as file:
-        json.dump(json_file, file, indent=4, ensure_ascii=False)
+    try:
+        with open(json_path, 'w', encoding='utf-8') as file:
+            json.dump(json_file, file, indent=4, ensure_ascii=False)
+    except Exception:
+        print(f'Błąd: {Exception}')
 
 def buy_cart():
     """Zatwierdzenie koszyka - kupno"""
@@ -222,3 +230,15 @@ def buy_cart():
         return "OK"
     else:
         return "Błąd przy zatwierdzaniu koszyka"
+    
+
+def get_base_dir():
+    if getattr(sys, 'frozen', False):
+        exe_dir = os.path.dirname(sys.executable)
+        project_dir = os.path.dirname(exe_dir)
+        return  project_dir
+    else:
+        return os.path.dirname(os.path.abspath(__file__))  # Dla trybu developerskiego
+BASE_DIR = get_base_dir()
+# Przestawienie katalogu roboczego
+os.chdir(BASE_DIR)

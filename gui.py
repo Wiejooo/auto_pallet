@@ -69,7 +69,6 @@ class MainWindow(QtWidgets.QMainWindow):
         """Wpisane słowa w textarea"""
         words = self.ui.textEdit.toPlainText()
         filtered_words = re.findall(r'"(.*?)"', words)
-        print(filtered_words)
         return filtered_words
     
     def make_json_file(self):
@@ -78,7 +77,8 @@ class MainWindow(QtWidgets.QMainWindow):
             "creation_date": self.json_name,
             "data": {}
         }
-        with open(f'operation_history/{self.json_name}', 'w', encoding='utf-8') as file:
+        make_path = os.path.abspath(f"operation_history/{self.json_name}")
+        with open(make_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
             file.flush()
     
@@ -89,9 +89,12 @@ class MainWindow(QtWidgets.QMainWindow):
             functions.fill_file(self.key_words(), self.json_name)
 
             # Załądowanie zawartości pliku json
-            json_path = os.path.join(os.path.dirname(__file__), "operation_history", self.json_name)
-            with open(json_path, 'r', encoding='utf-8') as file:
-                json_file = json.load(file)
+            json_path = os.path.abspath(f"operation_history/{self.json_name}")
+            try:
+                with open(json_path, 'r', encoding='utf-8') as file:
+                    json_file = json.load(file)
+            except Exception:
+                print(f'Błąd: {Exception}')
 
             # Kupienie palet
             for pallet_name, data in json_file['data'].items():
@@ -106,10 +109,12 @@ class MainWindow(QtWidgets.QMainWindow):
                         #     print("Błąd przy zatwierdzaniu koszyka")
                     else:
                         print(f'Błąd przy próbie kupna {pallet_name}')
-            # Zapisanie pliku
-            with open(json_path, 'w', encoding='utf-8') as file:
-                json.dump(json_file, file, indent=4, ensure_ascii=False)
-
+            try:
+                # Zapisanie pliku
+                with open(json_path, 'w', encoding='utf-8') as file:
+                    json.dump(json_file, file, indent=4, ensure_ascii=False)
+            except Exception:
+                print(f'Błąd: {Exception}')
             # Formatowanie danych do stringa
             result_lines = []
             for pallet_name, data in json_file['data'].items():
@@ -160,10 +165,14 @@ class MainWindow(QtWidgets.QMainWindow):
             self.timer_loop.stop()
 
     def summary(self):
-        # Wczytanie pliku
-        with open(f'operation_history/{self.json_name}', 'r', encoding='utf-8') as file:
-            data = json.load(file)
-        
+        try:
+            # Wczytanie pliku
+            json_path = os.path.abspath(f"operation_history/{self.json_name}")
+            with open(json_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+        except Exception:
+            print(f'Błąd: {Exception}')
+
         summary_cost = 0
         summary_items = {}
         for key, palet in data["data"].items():
