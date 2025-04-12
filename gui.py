@@ -102,7 +102,7 @@ class MainWindow(QtWidgets.QMainWindow):
                     status_code = functions.add_to_card(data['id'])
                     if status_code == 200:
                         data['both'] = True
-                        # status = functions.buy_cart()
+                        # status = functions.buy_cart() <--- WYŁĄCZONY MOMENT ZAKUPU
                         # if status == "OK":
                         #     "OK"
                         # else:
