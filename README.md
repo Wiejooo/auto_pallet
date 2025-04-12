@@ -20,6 +20,8 @@ Podsumowanie – zawiera informacje o łącznej kwocie wydanej przez bota oraz l
 Ostatnie zakupy – specjalne pole prezentujące cztery najnowsze zestawy zakupionych produktów.
 
 
+![image](https://github.com/user-attachments/assets/30bd0426-3863-4f36-aac0-b387ff2fcc2f)
+
 
 ENG
 # Auto_pallet
